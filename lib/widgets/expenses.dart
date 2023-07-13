@@ -1,8 +1,9 @@
-import 'package:expenses_tracker/widgets/chart/chart_bar.dart';
 import 'package:expenses_tracker/widgets/expense_list/expenses_list.dart';
 import 'package:expenses_tracker/models/expense.dart';
 import 'package:expenses_tracker/widgets/new_expense.dart';
 import 'package:flutter/material.dart';
+
+import 'chart/chart.dart';
 
 class Expenses extends StatefulWidget {
   const Expenses({super.key});
